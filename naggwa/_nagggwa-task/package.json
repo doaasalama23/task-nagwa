@@ -1,0 +1,44 @@
+{
+  "name": "project-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mukhtar Ali <mokhtarali.com>",
+  "license": "ISC",
+  "credit": "(c) 2020 Moselay Media Development <moselaymd.com>",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dependents": "^1.2.5",
+    "gulp-header-comment": "^0.8.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-javascript-obfuscator": "^1.1.5",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-purgecss": "^2.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rtlcss": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "ab-datepicker": "^2.1.19",
+    "apexcharts": "^3.35.3",
+    "bootstrap": "^4.5.2",
+    "datatables.net-dt": "^1.12.1",
+    "datatables.net-responsive-dt": "^2.3.0",
+    "jquery": "^3.5.1",
+    "parsleyjs": "^2.8.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

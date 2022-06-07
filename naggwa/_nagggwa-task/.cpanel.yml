@@ -1,0 +1,6 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/mnt/volume-fra1-01/mokhtarali/public_html/portfolio/qoot
+        - /bin/rm -Rf $DEPLOYPATH/src
+        - /bin cp * $DEPLOYPATH                           #copy all from root

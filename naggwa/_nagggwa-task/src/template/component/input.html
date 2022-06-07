@@ -1,0 +1,24 @@
+{% macro date(data = {}) %}
+    <div class="form-group {{ data.class }} ab-datepicker">
+        <label class="text-16 primary-font fw-500 mbt-8" for="{{ data.id }}">{{ data.label }}</label>
+        <input type="text" autocomplete="off"
+               class="form-control primary-font text-16"
+               name="{{ data.id }}"
+               id="{{ data.id }}"
+               placeholder="{{ data.placeholder }}"
+               value="{{ data.value }}" {{ status }}>
+        {% if data.error %}
+            <span class="d-inline-block mt-1 text-semibold">{{ data.error }}</span>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{# Default Render
+    {{ inputs.date(
+        {
+            id: 'date',
+            label: 'Date',
+            placeholder: 'Enter your user name'
+        })
+    }}
+#}

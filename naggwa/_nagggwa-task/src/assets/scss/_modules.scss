@@ -1,0 +1,48 @@
+body{
+    background: #FBFBFC;
+}
+.stat{
+    margin-bottom: 15px;
+    span{
+        display: inline-block;
+        width: 9px;
+        height: 29px;
+        background-color: #AE7129;
+        border-radius: 6px;
+    }
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 27px;
+        margin-bottom: 0;
+        margin-left: 10px;
+    }
+}
+#SvgjsPath1018{
+    stroke: #4A3274 !important;
+}
+#SvgjsPath1038{
+    stroke: #739500 !important;
+}
+#SvgjsPath1058{
+    stroke: #950086 !important;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart-3 {
+//   max-width: 650px;
+  margin: 35px auto;
+}
+.ddd{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.hed{
+    background-color: #ffffff;
+    padding: 25px 0;
+}
