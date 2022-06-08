@@ -46,3 +46,21 @@ body {
     background-color: #ffffff;
     padding: 25px 0;
 }
+.all-items{
+    a{
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        color: #000000;
+    }
+    .active{
+        background-color: #dde9f1;
+        color: #026BB0;
+    }
+}
+@media (max-width:990px){
+    .all-items{
+    justify-content: flex-start !important;
+    }
+}
